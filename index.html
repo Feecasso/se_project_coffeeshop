@@ -2,15 +2,54 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bucks Coffee</title>
-    <meta name="author" content="Finnis Caldwell" />
-    <!--add keywords and description meta tags-->
-    <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <meta name="description" content="Coffee Shop Landing Page" />
+    <meta name="author" content="FEECASSO" />
+    <meta name="keywords" content="HTML, CSS" />
+    <link rel="stylesheet" href="pages/index.css" />
+    <link rel="stylesheet" href="vendor/normalize.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Bucks Coffee</title>
   </head>
   <body>
-    whatever
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Coffeeshop logo"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li><a href="" class="nav__link">Recipes</a></li>
+            <li><a href="" class="nav__link">Book A Table</a></li>
+            <li><a href="" class="nav__link">Menu</a></li>
+            <li><a href="" class="nav__link">Contacts</a></li>
+          </ul>
+        </nav>
+        <h1 class="header__title">
+          <span class="header__span-accent">Specialty Coffee</span> In Triple
+          Peaks Library
+        </h1>
+        <p class="header__description">
+          Welcome to our study zone! We've got the coffee to energize you and
+          the cozy vibes to help you grt creative
+        </p>
+      </header>
+      <main class="content">
+        <section class="recipes"></section>
+        <section class="reservation"></section>
+        <section class="menu"></section>
+        <section class="about"></section>
+      </main>
+      <footer class="footer"></footer>
+    </div>
   </body>
 </html>
