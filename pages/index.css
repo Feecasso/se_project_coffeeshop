@@ -129,6 +129,12 @@
   max-width: 438px;
 }
 
+.recipes__iframe {
+  height: 315px;
+  width: 560px;
+  border: 0;
+}
+
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
