@@ -8,6 +8,8 @@
   box-sizing: border-box;
   position: relative;
   background-size: cover;
+  background-position: center;
+  z-index: 1;
 }
 
 .header__image {
@@ -16,6 +18,7 @@
   right: 5px;
   width: 646px;
   height: 568px;
+  z-index: -1;
 }
 
 .header__title {
@@ -29,16 +32,14 @@
 }
 
 .header__span-accent {
-  font-family: "Noto Serif", "Arial", sans-serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
-  font-size: 60px;
-  line-height: 72px;
   display: block;
   color: #2f88ed;
 }
 
 .header__description {
-  font-family: "Inter", "Arial", sans-serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   max-width: 683px;
   font-size: 20px;
   line-height: 30px;
